@@ -2,7 +2,6 @@
 public class SingleNumber136 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		System.out.println(singleNumber(new int[] {1,2,3,2,1}));
 	}
 	   public static int singleNumber(int[] nums) {
