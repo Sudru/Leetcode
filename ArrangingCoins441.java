@@ -16,7 +16,7 @@ public class ArrangingCoins441 {
 	        
 	    }
 	    //binary search approach
-	    public int arrangeCoins(int n) {
+	    public int arrangeCoinsBinary(int n) {
         long l=1, r=n;
         while(l<=r){
             long mid = l + (r-l)/2;
